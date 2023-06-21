@@ -1,0 +1,192 @@
+ git log
+commit 74fd54c093b9c8ec915eb821e157b6f3f125e5b8 (HEAD -> b1)
+Author: sandy <santhoshveerappan12@gmail.com>
+Date:   Wed Jun 21 18:01:46 2023 +0530
+
+    b1 line one
+
+commit a060b6881d6418aeabbc6e2beb06260fd08ec959
+Author: sandy <santhoshveerappan12@gmail.com>
+Date:   Sun Jun 18 16:44:26 2023 +0530
+
+    first line
+
+commit aa786d3964329c94f9d85656356c10cfffa7f642
+Author: sandy <santhoshveerappan12@gmail.com>
+Date:   Sun Jun 18 16:31:37 2023 +0530
+
+    file 1
+
+commit 4b8a2ee3921d1e07747012db3d24365a16c58e97
+Author: pandian <pandian@hippo.com>
+Date:   Thu Jun 8 19:36:18 2023 +0530
+
+    ignore
+
+ git log
+commit 6ec1e1982b94390daabe9f0d6bebd2b82c91eb6b (HEAD -> b2)
+Merge: d2e36e8 74fd54c
+Author: sandy <santhoshveerappan12@gmail.com>
+Date:   Wed Jun 21 18:07:48 2023 +0530
+
+    Merge branch 'b1' into b2
+
+commit d2e36e8a3ddce754bee6a84abb4525eed05cae7d
+Author: sandy <santhoshveerappan12@gmail.com>
+Date:   Wed Jun 21 18:06:05 2023 +0530
+
+    b2 line one
+
+commit 74fd54c093b9c8ec915eb821e157b6f3f125e5b8 (b1)
+Author: sandy <santhoshveerappan12@gmail.com>
+Date:   Wed Jun 21 18:01:46 2023 +0530
+
+    b1 line one
+
+commit a060b6881d6418aeabbc6e2beb06260fd08ec959
+Author: sandy <santhoshveerappan12@gmail.com>
+Date:   Sun Jun 18 16:44:26 2023 +0530
+
+    first line
+
+commit aa786d3964329c94f9d85656356c10cfffa7f642
+Author: sandy <santhoshveerappan12@gmail.com>
+Date:   Sun Jun 18 16:31:37 2023 +0530
+
+    file 1
+
+commit 4b8a2ee3921d1e07747012db3d24365a16c58e97
+Author: pandian <pandian@hippo.com>
+Date:   Thu Jun 8 19:36:18 2023 +0530
+
+    ignore
+
+commit b56818802aba321e22be4fc64a0682233b232a7d
+Author: pandian <pandian@hippo.com>
+Date:   Thu Jun 8 19:29:40 2023 +0530
+
+    1st line
+
+ git log
+commit 6ec1e1982b94390daabe9f0d6bebd2b82c91eb6b (HEAD -> b2)
+Merge: d2e36e8 74fd54c
+Author: sandy <santhoshveerappan12@gmail.com>
+Date:   Wed Jun 21 18:07:48 2023 +0530
+
+    Merge branch 'b1' into b2
+
+commit d2e36e8a3ddce754bee6a84abb4525eed05cae7d
+Author: sandy <santhoshveerappan12@gmail.com>
+Date:   Wed Jun 21 18:06:05 2023 +0530
+
+    b2 line one
+
+commit 74fd54c093b9c8ec915eb821e157b6f3f125e5b8 (b1)
+Author: sandy <santhoshveerappan12@gmail.com>
+Date:   Wed Jun 21 18:01:46 2023 +0530
+
+    b1 line one
+
+commit a060b6881d6418aeabbc6e2beb06260fd08ec959
+Author: sandy <santhoshveerappan12@gmail.com>
+Date:   Sun Jun 18 16:44:26 2023 +0530
+
+    first line
+
+commit aa786d3964329c94f9d85656356c10cfffa7f642
+Author: sandy <santhoshveerappan12@gmail.com>
+Date:   Sun Jun 18 16:31:37 2023 +0530
+
+    file 1
+
+commit 4b8a2ee3921d1e07747012db3d24365a16c58e97
+Author: pandian <pandian@hippo.com>
+Date:   Thu Jun 8 19:36:18 2023 +0530
+
+    ignore
+
+commit b56818802aba321e22be4fc64a0682233b232a7d
+Author: pandian <pandian@hippo.com>
+Date:   Thu Jun 8 19:29:40 2023 +0530
+
+    1st line
+
+commit b56818802aba321e22be4fc64a0682233b232a7d
+Author: pandian <pandian@hippo.com>
+Date:   Thu Jun 8 19:29:40 2023 +0530
+
+    1st line
+
+commit 01707ce34e1e15d442c0dcc791f7945c70bd105c
+Author: awspandian <46845070+awspandian@users.noreply.github.com>
+Date:   Thu Jun 1 19:41:10 2023 +0530
+
+    Initial commit
+
+ history
+    1  ls
+    2  git clone https://github.com/santhoshv12/1J.git
+    3  ls
+    4  cd 1J
+    5  ls
+    6  git branch b1
+    7  git branch b2
+    8  git branch b3
+    9  git chechout b1
+   10  git checkout b1
+   11  touch b1.txt
+   12  vi b1.txt
+   13  git add b1.txt
+   14  git commit -m "b1 line one"
+   15  cat b1.txt
+   16  git checkout b2
+   17  touch b2.txt
+   18  vi b2.txt
+   19  git add b2.txt
+   20  git commit -m "b2 line one"
+   21  cat b2.txt
+   22  git merge b1
+   23  ls
+   24  git rebase b2 b3
+   25  ls
+   26  vi b1.txt
+   27  git add.
+   28  git commit -m "b1 line two"
+   29  git add .
+   30  git commit -m "b1 line two"
+   31  cat b1.txt
+   32  vi b1.txt
+   33  git add .
+   34  git commit -m "b1 line three"
+   35  cat b1.txt
+   36  vi b1.txt
+   37  git add .
+   38  git commit -m "b1 line four"
+   39  cat b1.txt
+   40  vi b1.txt
+   41  git add .
+   42  git commit -m "b1 line five"
+   43  cat b1.txt
+   44  git log --oneline
+   45  git checkout main
+   46  ls
+   47  git cherry-pick 74fd54c
+   48  git add .
+   49  git commit -m "cherry pick commit 1"
+   50  cat b1.txt
+   51  git cherry-pick a3226c9
+   52  git cherry-pick ef797ac
+   53  git cherry-pick 10a3861
+   54  git cherry-pick f872cb9
+   55  cat b1.txt
+   56  git push
+   57  git checkout b1
+   58  git log
+   59  git checkout b2
+   60  git log
+   61  git checkout b3
+   62  git log
+   63  git checkout main
+   64  git push
+   65  git branch -D b1 b2 b3
+   66  history
