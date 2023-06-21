@@ -2,3 +2,4 @@ apple
 cat
 bat
 elephant
+foot
